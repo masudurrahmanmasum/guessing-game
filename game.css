@@ -1,0 +1,83 @@
+*{
+   margin:0;
+   padding:0;
+}
+body{
+   background: indigo;
+}
+
+
+.heading {
+   font-size: 1.2rem;
+   color: tomato;
+   text-align:center;
+   -webkit-text-stroke: 1px #f0f601d6;
+   font-weight: 800;
+   margin-top: 30px;
+  
+}
+.gender {
+   width: 170px;
+   height:20px;
+   margin: auto;
+   text-align: center;
+   margin-top: 40px;
+   padding: 5px 20px;
+   box-shadow: 2px 0px 29px -4px #393939;
+   border-radius: 15px;
+   text-align: center;
+   outline: none;
+   border: 3px solid hotpink;
+   font-size: 13px;
+   font-size:1.3rem;
+   color:greenyellow;
+}
+
+
+
+.main {
+   width: 250px;
+   height: 400px;
+   background: #ff910700;
+   margin: 30px auto;
+   box-shadow: 1px 3px 0px #e1e1e4,
+    -18px -48px 164px #727276, inset -2px 4px 35px #e1e1e4,
+    inset 2px 2px 0px #727276;
+   border-radius: 8px;
+   position: relative;
+}
+
+.submain span {
+   margin-left: 15px;
+   font-size: 18px;
+   font-weight: 700;
+   color: #e65959;
+}
+
+.submain input[type="text"] {
+   padding: 15px 5px;
+   margin-left: 32px;
+   background:  rgba(0,0,0,0.1);
+   color:white;border:1px solid #fff;
+   border-radius: 7px;
+   text-align:center;
+}
+.submain {
+   width: 100%;
+   margin: 28px auto;
+   position: absolute;
+   line-height: 3.3;
+}
+.submain button {
+   padding: 6px 14px;
+   margin-left: 88px;
+   border-radius: 5px;
+   font-weight: bold;
+}
+.output {
+   position: absolute;
+   margin-top: 231px;
+   margin-left: -3px;
+   text-align: center;
+   line-height: 2;
+}
